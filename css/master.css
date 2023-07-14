@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+.input-right{
+    
+    margin-top: 150px;
+    margin-bottom: 120px;
+  
+}
+
+.input-1{
+    border: 1px solid #f8f9fa;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), -3px -3px 10px rgba(0, 0, 0, 0.3);
+    background-color: #f1f1f1;
+    border-radius: 15px;
+  
+}
+
+.icon i{
+    color: rgb(84, 84, 253) ;
+    font-size: 50px;
+}
+
+.span-icon{
+    color: #676767;
+    font-size: 24px;
+}

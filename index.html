@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+
+<body>
+    
+   
+    <div class="container  ">
+        <div class="row ">
+            <div class=" col-md-6  col-lg-4  py-5 input-1 mb-4 mt-4  ">
+                <div class="input-right justify-content-center align-items-center d-flex flex-column  ">
+                    <input type="text" placeholder="enter your name" required class="form-control mb-2  " id="ProuductName" value="">
+
+                     <div id="namealert" class="alert alert-danger mb-3 w-100 d-none">name should be from 2-15 characters....</div>
+
+
+                    <input type="" placeholder="enter your age" required class="form-control mb-3 " id="ProuductAge"  value="">
+
+                    <div id="agealert" class="alert alert-danger mb-3 w-100 d-none">age should be from 10-80 characters....</div>
+
+
+                    <input type="text" placeholder="enter your phone" required class="form-control mb-3 " id="ProuductPhone" value="">
+                   
+                    <div id="phonealert" class="alert alert-danger mb-3 w-100 d-none">ex: 010********</div>
+
+
+                    <input type="submit" disabled  class="btn btn-primary btn-lg" value="add contact" id="btnsubmit" >
+                </div>
+            </div>
+            <div class=" col-md-6  col-lg-7  py-5 input-1 mb-4 ml-5 mt-4    ">
+                <div class="input-left ">
+                    <input type="text "  placeholder="search by name  " id="inputsearch" class="  form-control m-auto text-center w-75">
+                </div>
+               <div class="icon d-flex pt-4 ">
+                <i class="fa-solid fa-address-book  "> </i>
+                <span class="span-icon pl-3 py-2"> Contacts List:</span>
+               </div>
+
+               <div class="date">
+                <table class="table table-striped">
+                    <thead>
+                             <th></th>
+                            <th>name</th>
+                            <th>age</th>
+                            <th>phone</th>
+                            <th></th>
+                            
+                        
+                    </thead>
+                    <tbody id="table-tbody">
+                     
+                    </tbody>
+                </table>
+               </div>
+            </div>
+
+            
+        </div>
+
+    </div>
+   
+
+  
+
+  
+   
+
+  
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/main.js"></script>
+    <script src="js/asset.js"></script>
+</body>
+</html>
